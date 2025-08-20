@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav id="main-nav">
+        <div class="logo">
+            <img src="images\logo.png" alt="Book App Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero-section" class="nav-link">Home</a></li>
+            <li><a href="#books-section" class="nav-link">Books</a></li>
+            <li><a href="#categories-section" class="nav-link">Categories</a></li>
+            <li><a href="#about-section" class="nav-link">About</a></li>
+            <li><a href="#contact-section" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="hero-section">
+            <h1>Find Your Next Read</h1>
+            <p>Explore a universe of books, one story at a time.</p>
+        </section>
+
+        <section class="content" id="books-section">
+            <h2>New Arrivals</h2>
+            <div class="card-container">
+                <div class="book-card">
+                    <img src="images\TheSilentReading.png" alt="Book Cover" class="book-cover">
+                    <div class="card-content">
+                        <h3 class="book-title">The Silent Reading</h3>
+                        <p class="book-author">by Jane Doe</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="images\TheMidNightLibrary.png" alt="Book Cover" class="book-cover">
+                    <div class="card-content">
+                        <h3 class="book-title">The Midnight Library</h3>
+                        <p class="book-author">by John Smith</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="images\TheBookOfSecrets.png" alt="Book Cover" class="book-cover">
+                    <div class="card-content">
+                        <h3 class="book-title">The Book of Secrets</h3>
+                        <p class="book-author">by A. B. Cole</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="images\LostMemories.png" alt="Book Cover" class="book-cover">
+                    <div class="card-content">
+                        <h3 class="book-title">Lost Memories</h3>
+                        <p class="book-author">by Emily Stone</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content" id="categories-section">
+            <h2>Top Categories</h2>
+            <div class="card-container">
+                <div class="category-card">
+                    <h3>Fantasy</h3>
+                </div>
+                <div class="category-card">
+                    <h3>Mystery</h3>
+                </div>
+                <div class="category-card">
+                    <h3>Romance</h3>
+                </div>
+                <div class="category-card">
+                    <h3>Sci-Fi</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="content about-us-container" id="about-section">
+            <div class="about-image">
+                <img src="images\personReadingaBook.png" alt="A person reading a book">
+            </div>
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Welcome to Book App, your premier online destination for all things literature! We are a passionate community of readers dedicated to connecting people with their next favorite story. Our mission is to make the joy of reading accessible to everyone, offering a curated selection of books across various genres. We believe in the power of a good book to transport, inspire, and educate. Join us on our journey to explore new worlds, one page at a time. Whether you're a seasoned bookworm or just starting your reading adventure, we have something for you.</p>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact-section">
+            <div class="contact-container">
+                <h2>Get In Touch</h2>
+                <div class="contact-info">
+                    <h3>Our Details</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@bookapp.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(123) 456-7890</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Reading Lane, Booktown, UK</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Book App. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
